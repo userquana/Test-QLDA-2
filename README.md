@@ -1,5 +1,5 @@
 # Test-QLDA-2
-Báo cáo tỉ lệ lỗi yêu cầu chức
+Báo cáo tỉ lệ lỗi yêu cầu chức năng
 
     Bài tập sử dụng dự án máy tính cầm tay trên code python
 
