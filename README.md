@@ -11,8 +11,10 @@ Dựa trên kết quả test thu được,
 	chương trình có tổng cộng 237 dòng code tương đương 0.237 KLOC.
 	Số lỗi ghi nhận được trong quá trình chạy test là 4 lỗi.
 	Do đó ta tính được tỉ lệ sai lệch phần mềm:
-	tỉ lệ lỗi = 4 / 0.237 = ~16.88 lỗi/KLOC.
+	tỉ lệ lỗi = 5 / 0.237 = ~21.10 lỗi/KLOC.
 
 Hướng dẫn sử dụng:
 
 	Clone repo: https://github.com/userquana/Test-QLDA-2
+Sau đó chạy 
+"python -m pytest -v"
