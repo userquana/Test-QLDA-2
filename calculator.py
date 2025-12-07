@@ -172,6 +172,7 @@ class Calculator:
         except:
             messagebox.showerror("Lỗi", "Lỗi tính toán!")
     
+    
     def square(self):
         """Tính bình phương"""
         try:
@@ -200,12 +201,12 @@ class Calculator:
                     self.expression = self.expression[1:]
                 else:
                     self.expression = '-' + self.expression
+
                 self.update_display()
         except:
             pass
     
     def update_display(self):
-        """Cập nhật màn hình """
         display_expr = self.expression.replace('*', '×').replace('/', '÷')
         self.expression_label.config(text=display_expr)
         
@@ -216,7 +217,6 @@ class Calculator:
             self.result_label.config(text="0")
     
     def key_press(self, event):
-        """Xử lý phím bàn phím"""
         key = event.char
         
         if key.isdigit() or key == '.':

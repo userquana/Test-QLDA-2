@@ -1,4 +1,4 @@
-Báo cáo tỉ lệ lỗi Unit test
+Báo cáo tỉ lệ lỗi yêu cầu chức
 	Bài tập sử dụng dự án máy tính cầm tay trên code python
 
 	Sử dụng tool là pytest và kiểm thử trên dự án máy tính
